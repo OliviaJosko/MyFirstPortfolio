@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    background-color:white;
+}
+.Head{
+    background-color: #D2E9E9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Headunderline{
+    background-color: #D2E9E9;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.Body{
+    background-color: #D2E9E9;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    height: fit-content;
+}
+
+#Innerbody{
+    background-color: #E3F4F4;
+    padding: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome{
+    background-color: #E3F4F4;
+    color:white;
+    padding: 80px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: 0 0 2px black;
+}
+.buttons{
+    background-color: #E3F4F4;
+}
+button {
+    font-size: 25px;
+    transition: font-size 1s;
+    vertical-align: top;
+    background-color: #E3F4F4;
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-weight: bold;
+    border-color: #C4DFDF;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+span{
+    background-color: #E3F4F4;
+}
+button span {
+    transition: opacity 250ms;
+}
+button:hover span {
+    opacity: 0;
+}
+
+button:hover {
+    font-size: 50px;
+}
+
+#Musik:hover:before {
+    content: "folge mir auf insta!";
+    display: flex;
+    font-size: 20px; /* Adjust this value to match the hover font size */
+    opacity: 1;
+    visibility: visible;
+    transition: font-size 1s, opacity 1s;
+    position: absolute;
+}
+
+/* Initially hide the :before content */
+button:before {
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+}
