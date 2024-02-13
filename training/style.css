@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 5px;
+}
+
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.zweite{
+    padding: 1%;
+    text-align: center;
+}
+.erste {
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+
+#colorOption {
+    color: white;
+    background-color: cornflowerblue;
+    height: 50px;
+    border: 5px solid black;
+    padding-top: 25px;
+    width: 500px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 150px;
+
+}
+
+#colorOption:hover {
+    background-color: gray;
+}
