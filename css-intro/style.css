@@ -1,0 +1,30 @@
+#colorOption {
+    color: white;
+    background-color: cornflowerblue;
+    height: 50px;
+    border: 5px solid black;
+    padding-top: 25px;
+    width: 500px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 150px;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#colorOption:hover {
+    background-color: gray;
+}
+.zweite{
+    padding: 1%;
+    text-align: center;
+}
+.erste {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 5%;
+}
