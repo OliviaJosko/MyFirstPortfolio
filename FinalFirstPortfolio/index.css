@@ -1,0 +1,29 @@
+:root {
+    --purple: #d4c4df;
+    --blue:  #C4DFDF;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.haha{
+    margin: 10px;
+}
+#Welcome{
+    background-color: var(--blue);
+    display: flex;
+    padding: 10px;
+}
+
+#Generative\ Gestaltung{
+    background-color:  var(--purple);
+}
+
+#Product\ Dimensions{
+    background-color: #C4DFDF;
+}
+
+#Essentials1{
+    background-color: #d4c4df;
+}
