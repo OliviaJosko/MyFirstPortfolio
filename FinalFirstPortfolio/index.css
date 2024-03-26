@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Chilanka;
+    scroll-behavior: smooth;
 
 }
 
@@ -35,7 +36,7 @@
     text-align: center;
 }
 
-#MeineProjekte button{
+.ProjektButtons{
     border: 3px solid var(--purple);
     background-color: white;
     color: var(--purple);
@@ -50,7 +51,7 @@
     font-size: large;
     font-weight: bold;
 }
-#MeineProjekte button:hover{
+.ProjektButtonshover{
     background-color: var(--purple);
     color: white;
 }
