@@ -2,28 +2,116 @@
     --purple: #d4c4df;
     --blue:  #C4DFDF;
 }
-
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Chilanka;
+
 }
-.haha{
-    margin: 10px;
+
+.Link{
+    color: white;
 }
-#Welcome{
-    background-color: var(--blue);
-    display: flex;
+.Link:hover {
+    color: black;
+}
+.LinkProductDimensions{
+    color: black;
+}
+.LinkProductDimensions:hover{
+    color: var(--purple);
+}
+.InfosÜberMich{
+    color: black;
+}
+.InfosÜberMich:hover{
+    color: white;
+}
+
+#Welcometext, #MeineProjekte{
+    height: 500px;
+    height: fit-content;
+    padding: 5px;
+    text-align: center;
+}
+
+#MeineProjekte button{
+    border: 3px solid var(--purple);
+    background-color: white;
+    color: var(--purple);
+    transition: background-color 500ms, color 500ms;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+#MeineProjekte button:hover{
+    background-color: var(--purple);
+    color: white;
+}
+
+#Navigationsleiste{
+    background-color: #dedede;
+    height: 25px;
     padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#Welcome{
+    display: flex;
+    border-bottom: 1px solid black;
 }
 
 #Generative\ Gestaltung{
     background-color:  var(--purple);
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: white;
+    display: flex;
 }
-
 #Product\ Dimensions{
-    background-color: #C4DFDF;
+    background-color: white;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    display: flex;
 }
 
 #Essentials1{
     background-color: #d4c4df;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: white;
+    display: flex;
+}
+
+#Kontaktinfo{
+    display: flex;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    height: fit-content;
+}
+.hä{
+    margin: 20px;
+}
+
+#ProductDimensionsBilder{
+    margin: 50px;
+    padding: 50px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: var(--purple);
 }
