@@ -77,6 +77,10 @@
     color: white;
     display: flex;
 }
+#generativeGestaltungBild{
+    height: 100%;
+}
+
 #Product\ Dimensions{
     background-color: white;
     height: 300px;
@@ -84,6 +88,9 @@
     text-align: center;
     border-bottom: 1px solid black;
     display: flex;
+}
+#productDimensionsBild{
+    height: 100%;
 }
 
 #Essentials1{
@@ -108,7 +115,7 @@
     margin: 20px;
 }
 
-#ProductDimensionsBilder{
+#ProductDimensionsSeite{
     margin: 50px;
     padding: 50px;
     height: fit-content;
