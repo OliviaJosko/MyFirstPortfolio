@@ -60,22 +60,20 @@
     background-color: #dedede;
     height: 25px;
     padding: 10px;
-    border-bottom: 1px solid black;
 }
 
 #Welcome{
     display: flex;
-    border-bottom: 1px solid black;
 }
 
 #Generative\ Gestaltung{
     background-color:  var(--purple);
     height: 300px;
-    padding: 50px;
     text-align: center;
-    border-bottom: 1px solid black;
     color: white;
     display: flex;
+    padding: 50px;
+
 }
 #generativeGestaltungBild{
     height: 100%;
@@ -84,10 +82,10 @@
 #Product\ Dimensions{
     background-color: white;
     height: 300px;
-    padding: 50px;
     text-align: center;
-    border-bottom: 1px solid black;
     display: flex;
+    padding: 50px;
+
 }
 #productDimensionsBild{
     height: 100%;
@@ -96,11 +94,13 @@
 #Essentials1{
     background-color: #d4c4df;
     height: 300px;
-    padding: 50px;
     text-align: center;
-    border-bottom: 1px solid black;
     color: white;
     display: flex;
+    padding: 50px;
+}
+#codingEssentialsBild{
+    height: 100%;
 }
 
 #Kontaktinfo{
@@ -122,4 +122,14 @@
     display: flex;
     justify-content: center;
     background-color: var(--purple);
+}
+
+.InfosÜberMich{
+    font-size: large;
+}
+
+.bilder{
+    width: 400px;
+    justify-content: center;
+
 }

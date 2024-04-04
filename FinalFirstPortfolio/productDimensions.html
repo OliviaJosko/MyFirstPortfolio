@@ -2,17 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Product Dimensions</title>
+
+</head>
+<body>
+<div id="ProductDimensionsBilder">
+
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <title>Product Dimensions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Bilder horizontal zentrieren */
+            gap: 10px;
+        }
+
+        .bilder {
+            flex: 1 1 auto; /* Flex-Eigenschaften hinzufügen */
+            text-align: center; /* Bilder vertikal zentrieren */
+        }
+
+        .bilder img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+
+    </style>
 </head>
 <body>
 <div id="ProductDimensionsSeite">
     <h1>Der Weg zum lebensgroßen Wii-Controler!</h1>
 </div>
-<div id="ProductDimensionsBilder">
-    <img src="Wii-Bilder/202324_WiSe_PROD_JoskoOlivia_Pappmodell_Studio2.jpeg">
-    <img src="Wii-Bilder/202324_WiSe_PROD_JoskoOlivia_Pappmodell_Studio.png">
+<div class="container">
+    <div class="gallery">
 
+
+
+        <div class="bilder"><img src="Wii-Bilder/202324_WiSe_PROD_JoskoOlivia_Pappmodell_Studio2.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_002.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder/202324_WiSe_PROD_JoskoOlivia_Pappmodell_Studio.png"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_003.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_004.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_005.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_007.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_010.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_008.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_009.jpeg"></div>
+        <div class="bilder"><img src="Wii-Bilder\signal-2023-10-16-221932_011.jpeg"></div>
+
+
+        <!-- Add more images here -->
+    </div>
 </div>
+
 </body>
 </html>
