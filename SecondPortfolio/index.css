@@ -1,0 +1,70 @@
+/* Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --header-height: 54px;
+
+    /*========== Font and typography ==============*/
+    --body-font: "Permanent Marker", cursive;
+    --biggest-font-size: 48px;
+    --normal-font-size: 16px;
+
+    /* Font weight */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    /* z-index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/*========== Responsive Typography =============*/
+@media screen and (min-width: 1150px){
+    :root{
+        --biggest-font-size: 6.5rem;
+        --big-font-size: 2rem;
+        --normal-font-size: 1rem;
+    }
+}
+
+/*============== Base ==============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: white;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*============ Reusable Css Classes ============*/
+.container{
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+.main{
+    overflow: hidden;
+}
+
+#hi{
+    font-family: var(--body-font);
+}
