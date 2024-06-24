@@ -27,6 +27,13 @@
         --normal-font-size: 1rem;
     }
 }
+@media screen and (max-width: 500px){
+    :root{
+        --biggest-font-size: 13rem;
+        --big-font-size: 4rem;
+        --normal-font-size: 2rem;
+    }
+}
 
 /*============== Base ==============*/
 * {
