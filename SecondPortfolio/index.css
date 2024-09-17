@@ -16,6 +16,13 @@
     /* z-index */
     --z-tooltip: 10;
     --z-fixed: 100;
+
+    /* nav and header colors */
+    --header-background-color: black;
+
+    /* body colors */
+    --body-background-color: white;
+
 }
 
 /*========== Responsive Typography =============*/
@@ -45,7 +52,7 @@
 body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: white;
+    background-color: var(--body-background-color);
     color: black;
 }
 
@@ -89,7 +96,7 @@ html {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #000000;
+    background-color: var(--header-background-color);
     z-index: var(--z-fixed);
 }
 
