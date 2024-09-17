@@ -7,7 +7,7 @@
     /*========== Font and typography ==============*/
     --body-font: "Permanent Marker", cursive;
     --biggest-font-size: 1.5rem;
-    --normal-font-size: .983rem;
+    --normal-font-size: 1rem;
 
     /* Font weight */
     --font-weight-regular: 400;
@@ -25,10 +25,8 @@
     --link-color: white;
     --link-underline-color: white;
 
-
     /* body colors */
     --body-background-color: white;
-
 }
 
 /*========== Responsive Typography =============*/
