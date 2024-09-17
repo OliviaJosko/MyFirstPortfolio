@@ -19,6 +19,12 @@
 
     /* nav and header colors */
     --header-background-color: black;
+    --logo-color: white;
+    --close-toggle-color: white;
+    --menu-color: black;
+    --link-color: white;
+    --link-underline-color: white;
+
 
     /* body colors */
     --body-background-color: white;
@@ -109,14 +115,14 @@ html {
 }
 
 .navLogo {
-    color: white;
+    color: var(--logo-color);
     font-weight: var(--font-weight-regular);
 }
 
 .navClose,
 .navToggle{
     display: flex;
-    color: white;
+    color: var(--close-toggle-color);
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -128,7 +134,7 @@ html {
         position: fixed;
         left: -100%;
         top: 0;
-        background-color: black;
+        background-color: var(--menu-color);
         width: 100%;
         height: 100%;
         padding: 6rem 3.5rem 4.5rem;
@@ -168,7 +174,7 @@ html {
 
 .navLink{
     position: relative;
-    color: white;
+    color: var(--link-color);
     font-size: var(--biggest-font-size);
     font-weight: var(--font-weight-regular);
     display: inline-flex;
@@ -196,7 +202,7 @@ html {
     bottom: -6px;
     width: 0;
     height: 2px;
-    background-color: white;
+    background-color: var(--link-underline-color);
     transition: width .4s ease-out;
 }
 
