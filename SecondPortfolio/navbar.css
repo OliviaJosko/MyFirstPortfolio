@@ -13,14 +13,7 @@
     overflow: hidden;
 }
 
-#hi{
-    text-align: center;
-    font-family: var(--body-font);
-    color: transparent;
-    margin: 100px;
-    background: linear-gradient(to right, red, blue);
-    background-clip: text;
-}
+
 
 /*========= HEADER & NAV =========*/
 .header {

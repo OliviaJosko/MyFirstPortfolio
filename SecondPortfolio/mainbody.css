@@ -1,0 +1,36 @@
+
+.maincontainer{
+    font-family: var(--body-font);
+
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+
+}
+h1{
+    color: transparent;
+    background: linear-gradient(to right, purple, blue);
+    background-clip: text;
+}
+.home-page{
+    background-color: lightpink;
+}
+
+.about-me-page{
+    background-color: lightblue;
+}
+.uni-projects-page{
+
+}
+
+.interests-page{
+    background-color: lightgreen;
+}
+
+.contact-page{
+    height: 50vh;
+}
