@@ -1,82 +1,7 @@
 /* Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-:root {
-    --header-height: 3.5rem;
 
-    /*========== Font and typography ==============*/
-    --body-font: "Permanent Marker", cursive;
-    --biggest-font-size: 1.5rem;
-    --normal-font-size: 1rem;
-
-    /* Font weight */
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
-
-    /* z-index */
-    --z-tooltip: 10;
-    --z-fixed: 100;
-
-    /* nav and header colors */
-    --header-background-color: black;
-    --logo-color: white;
-    --close-toggle-color: white;
-    --menu-color: black;
-    --link-color: white;
-    --link-underline-color: white;
-
-    /* body colors */
-    --body-background-color: white;
-}
-
-/*========== Responsive Typography =============*/
-/* screen = Bildschirmgeräte */
-@media screen and (min-width: 1150px){
-    :root{
-        --biggest-font-size: 6.5rem;
-        --big-font-size: 2rem;
-        --normal-font-size: 1rem;
-    }
-}
-@media screen and (max-width: 500px){
-    :root{
-        --biggest-font-size: 2rem;
-        --big-font-size: 2rem;
-        --normal-font-size: 1.5rem;
-    }
-}
-
-/*============== Base ==============*/
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    background-color: var(--body-background-color);
-    color: black;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-html {
-    scroll-behavior: smooth;
-}
 
 /*============ Reusable Css Classes ============*/
 .container {
@@ -89,9 +14,12 @@ html {
 }
 
 #hi{
+    text-align: center;
     font-family: var(--body-font);
-    color: blue;
+    color: transparent;
     margin: 100px;
+    background: linear-gradient(to right, red, blue);
+    background-clip: text;
 }
 
 /*========= HEADER & NAV =========*/

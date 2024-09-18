@@ -1,0 +1,28 @@
+
+:root {
+    --header-height: 3.5rem;
+
+    /*========== Font and typography ==============*/
+    --body-font: "Permanent Marker", cursive;
+    --biggest-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+
+    /* Font weight */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    /* z-index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+    /* nav and header colors */
+    --header-background-color: black;
+    --logo-color: white;
+    --close-toggle-color: white;
+    --menu-color: black;
+    --link-color: white;
+    --link-underline-color: white;
+
+    /* body colors */
+    --body-background-color: white;
+}

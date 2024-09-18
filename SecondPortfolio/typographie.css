@@ -1,0 +1,17 @@
+
+/*========== Responsive Typography =============*/
+/* screen = Bildschirmgeräte */
+@media screen and (min-width: 1150px){
+    :root{
+        --biggest-font-size: 6.5rem;
+        --big-font-size: 2rem;
+        --normal-font-size: 1rem;
+    }
+}
+@media screen and (max-width: 500px){
+    :root{
+        --biggest-font-size: 2rem;
+        --big-font-size: 2rem;
+        --normal-font-size: 1.5rem;
+    }
+}
