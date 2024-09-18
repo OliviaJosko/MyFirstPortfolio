@@ -16,21 +16,21 @@ h1{
     background: linear-gradient(to right, purple, blue);
     background-clip: text;
 }
-.home-page{
+#home-page{
     background-color: lightpink;
 }
 
-.about-me-page{
+#about-me-page{
     background-color: lightblue;
 }
-.uni-projects-page{
+#uni-projects-page{
 
 }
 
-.interests-page{
+#interests-page{
     background-color: lightgreen;
 }
 
-.contact-page{
+#contact-page{
     height: 50vh;
 }

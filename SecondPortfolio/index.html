@@ -18,37 +18,47 @@
             <div class="navMenu" id="nav-menu">
                 <ul class="navList">
                     <li  class="navItem">
-                        <a href="#" class="navLink">
+                        <a href="#" class="navLink" onclick="event.preventDefault(); document.getElementById('home-page').scrollIntoView();">
                             <i class="ri-arrow-right-up-line"></i>
-                            <span>HOME</span>
+                            <span>
+                                HOME
+                            </span>
                         </a>
                     </li>
 
                     <li class="navItem">
-                        <a href="#" class="navLink">
+                        <a href="#" class="navLink" onclick="event.preventDefault(); document.getElementById('about-me-page').scrollIntoView();">
                             <i class="ri-arrow-right-up-line"></i>
-                            <span>ABOUT ME</span>
+                            <span>
+                                ABOUT ME
+                            </span>
                         </a>
                     </li>
 
                     <li class="navItem">
-                        <a href="#" class="navLink">
+                        <a href="#" class="navLink" onclick="event.preventDefault(); document.getElementById('uni-projects-page').scrollIntoView();">
                             <i class="ri-arrow-right-up-line"></i>
-                            <span>UNI PROJECTS</span>
+                            <span>
+                                UNI PROJECTS
+                            </span>
                         </a>
                     </li>
 
                     <li class="navItem">
-                        <a href="#" class="navLink">
+                        <a href="#" class="navLink" onclick="event.preventDefault(); document.getElementById('interests-page').scrollIntoView();">
                             <i class="ri-arrow-right-up-line"></i>
-                            <span>INTERESTS</span>
+                            <span>
+                                INTERESTS
+                            </span>
                         </a>
                     </li>
 
                     <li class="navItem">
-                        <a href="#" class="navLink">
+                        <a href="#" class="navLink" onclick="event.preventDefault(); document.getElementById('contact-page').scrollIntoView();">
                             <i class="ri-arrow-right-up-line"></i>
-                            <span>CONTACT</span>
+                            <span>
+                                CONTACT
+                            </span>
                         </a>
                     </li>
                 </ul>
@@ -68,23 +78,23 @@
 
     <main class="main">
         <div class="maincontainer">
-            <section class="home-page">
+            <section id="home-page" >
                 <h1>Home</h1>
             </section>
 
-            <section class="about-me-page">
+            <section id="about-me-page">
                 <h1>About me</h1>
             </section>
 
-            <section class="uni-projects-page">
+            <section id="uni-projects-page">
                 <h1>Uni Projects</h1>
             </section>
 
-            <section class="interests-page">
+            <section id="interests-page">
                 <h1>Interests</h1>
             </section>
 
-            <section class="contact-page">
+            <section id="contact-page">
                 <h1>Contact</h1>
             </section>
         </div>
