@@ -118,11 +118,12 @@
 /* medium devices */
 @media screen and (min-width: 500px) {
     #home-page{
-        grid-template-columns: 450px;
+        grid-template-columns: 600px;
         justify-content: center;
     }
     #home-text{
         font-size: 1.5rem;
+        width: 400px;
     }
     .home-images [class*=blob]{
         scale: 1.2;
@@ -138,10 +139,12 @@
 /* large devices */
 @media screen and (min-width: 800px){
     #home-page{
-        grid-template-columns: 700px;
+        grid-template-columns: 800px;
         justify-content: center;
     }
-
+    #home-text{
+        width: 400px;
+    }
     .home-images [class*=blob]{
         scale: 1.5;
     }
@@ -159,10 +162,54 @@
 
 @media screen and (min-width: 1150px) {
     #home-page{
-        grid-template-columns: 1000px;
-        justify-content: center;
+        grid-template-columns: 1200px;
+        margin-inline: auto;
+    }
+    #home-text{
+        width: 400px;
     }
     .home-images [class*=blob]{
         scale: 1.8;
+    }
+    .blob-1{
+        bottom: 32rem;
+    }
+    .blob-3{
+        top: -23rem;
+    }
+    .blob-2{
+        right: 10rem;
+    }
+    .blob-4{
+        left: 6rem;
+    }
+
+}
+
+@media screen and (min-width: 1500px){
+    #home-page{
+        grid-template-columns: 1500px;
+        justify-content: center;
+    }
+    #headline{
+        font-size: 5rem;
+    }
+    #home-text{
+        font-size: 2rem;
+        width: 800px;
+    }
+    
+
+}
+
+/* for devices with small height */
+@media screen and (max-height: 700px){
+    #home-data{
+        padding-top: 0;
+    }
+}
+@media screen and (max-height: 900px){
+    #home-data{
+        padding-top: 1rem;
     }
 }

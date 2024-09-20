@@ -17,6 +17,7 @@ section{
 }
 #home-data{
     text-align: center;
+    padding-top: 5rem;
 }
 h1{
     display: inline-block;
@@ -35,7 +36,7 @@ h1{
 }
 #home-text{
     padding-top: 8rem;
-    max-width: 400px; /* Maximale Breite des div */
+    /*max-width: 400px; /* Maximale Breite des div */
     width: 100%; /* Passt sich der Breite des Containers an, bis die max-width erreicht ist */
     margin: 0 auto;
     height: 400px;
@@ -60,6 +61,7 @@ img{
 
 #home-page{
     background-color: lightpink;
+    overflow: hidden;
 }
 
 #about-me-page{
