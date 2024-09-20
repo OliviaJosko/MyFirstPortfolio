@@ -173,6 +173,7 @@
     }
     .blob-1{
         bottom: 32rem;
+        right: 0;
     }
     .blob-3{
         top: -23rem;
@@ -198,7 +199,7 @@
         font-size: 2rem;
         width: 800px;
     }
-    
+
 
 }
 
