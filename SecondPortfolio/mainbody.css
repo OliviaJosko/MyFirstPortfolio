@@ -1,5 +1,5 @@
 
-.maincontainer{
+.main-container{
     font-family: var(--body-font);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -8,13 +8,16 @@
 
 section{
     height: 100vh;
-    display: flex;
+    display: grid;
     justify-content: center;
     padding-top: 7rem;
     scroll-snap-align: start;
 }
-
+#home-data{
+    text-align: center;
+}
 h1{
+    display: inline-block;
     color: transparent;
     background: linear-gradient(to right, purple, blue);
     background-clip: text;
