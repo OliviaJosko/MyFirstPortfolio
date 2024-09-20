@@ -12,6 +12,8 @@ section{
     justify-content: center;
     padding-top: 7rem;
     scroll-snap-align: start;
+    grid-template-rows: max-content 320px;
+    row-gap: 2rem;
 }
 #home-data{
     text-align: center;
@@ -26,6 +28,52 @@ h1{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     /* -webkit-text-stroke: 0.01px white; /* Weiße Umrandung */
 }
+img{
+    width: 200px;
+    height: auto;
+}
+
+.home-images{
+    position: relative;
+}
+
+.home-images [class*=blob] {
+    background-color: white;
+    position: absolute;
+}
+.home-images [class*=home-img] {
+    position: absolute;
+}
+
+.blob-1{
+    width: 150px;
+    height: 180px;
+    border-radius: 38% 62% 66% 34%/60% 41% 59% 40%  ;
+    right: 7rem;
+    bottom: -4rem;
+}
+
+.blob-2{
+    width: 180px;
+    height: 190px;
+    border-radius: 61% 39% 67% 33% / 35% 63% 37% 65% ;
+    right: -13rem;
+    bottom: -12rem;
+}
+
+.blob-3{
+    width: 140px;
+    height: 180px;
+    border-radius: 31% 69% 50% 50% / 70% 63% 37% 30% ;
+}
+
+.blob-4{
+    width: 210px;
+    height: 190px;
+    border-radius: 31% 69% 50% 50% / 70% 63% 37% 30% ;
+}
+
+
 #home-page{
     background-color: lightpink;
 }
