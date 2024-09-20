@@ -33,6 +33,13 @@ h1{
     color: white;
     font-family: "Arial Black";
 }
+#home-text{
+    padding-top: 8rem;
+    max-width: 400px; /* Maximale Breite des div */
+    width: 100%; /* Passt sich der Breite des Containers an, bis die max-width erreicht ist */
+    margin: 0 auto;
+    height: 400px;
+}
 
 img{
     width: 150px;
@@ -49,15 +56,6 @@ img{
 }
 .home-images [class*=home-img] {
     position: absolute;
-}
-
-
-#home-text{
-    padding-top: 8rem;
-    max-width: 500px; /* Maximale Breite des div */
-    width: 100%; /* Passt sich der Breite des Containers an, bis die max-width erreicht ist */
-    margin: 0 auto;
-
 }
 
 #home-page{
@@ -78,25 +76,3 @@ img{
 #contact-page{
     height: 50vh;
 }
-
-/*       Breaking Points       */
-/* small devices */ /*
-@media screen and (max-width: 320px){
-    :root {
-        #home-text{
-            padding-top: 4rem;
-            max-width: 200px;
-            font-size: 15px;
-        }
-    }
-    .home-images [class*=blob]{
-        scale: .7;
-    }
-}
-
-
-/* medium devices */
-
-/* large devices */
-
-/* taller devices */
