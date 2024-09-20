@@ -1,7 +1,9 @@
 
 .maincontainer{
     font-family: var(--body-font);
-
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 section{
@@ -9,12 +11,17 @@ section{
     display: flex;
     justify-content: center;
     padding-top: 7rem;
-
+    scroll-snap-align: start;
 }
+
 h1{
     color: transparent;
     background: linear-gradient(to right, purple, blue);
     background-clip: text;
+    -webkit-background-clip: text; /* Für Safari */
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* -webkit-text-stroke: 0.01px white; /* Weiße Umrandung */
 }
 #home-page{
     background-color: lightpink;
