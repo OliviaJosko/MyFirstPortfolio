@@ -32,6 +32,7 @@ navLink.forEach( n => n.addEventListener('click', linkAction))
 document.addEventListener('DOMContentLoaded', function() {
     const swiper = new Swiper('.swiper', {
         loop: true,
+        spaceBetween: 30,
 
         // Navigation arrows
         navigation: {

@@ -7,16 +7,22 @@
     width: 100%;
     flex-direction: column;
     overflow: hidden;
-    padding-inline: 2rem;
 }
-.slider-container{
+.slider-container {
+    user-select: none;
     width: 100%;
+    max-width: 800px;
+    height: 500px;
     position: relative;
+    display: flex;
+
+    justify-content: center; /* Horizontale Zentrierung des gesamten Containers */
+    align-items: center; /* Vertikale Zentrierung */
+    margin: 0 auto;
 }
 
+
 .items{
-    width: 500px;
-    height: 500px;
     display: block;
     justify-content: center;
     align-items: center;
@@ -24,9 +30,6 @@
     padding: 1rem;
     border-radius: 12px;
     text-align: center;
-    margin-inline: 1rem;
-    object-fit: cover;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     border: 2px solid transparent;
     transition: 0.2s ease;
 }
@@ -39,8 +42,6 @@
     color: black;
     font-size: 2rem;
     z-index: 10; /* Ensure they appear above the slides */
-    width: auto; /* Ensure the buttons are not too wide */
-    height: auto; /* Adjust for better display */
 }
 
 #productDimensionsBild{
