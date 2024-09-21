@@ -1,0 +1,48 @@
+#uni-projects-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    overflow: hidden;
+/*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+}
+
+.items{
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: 0.5s;
+    left: calc(50% - 15rem);
+}
+
+#next, #prev{
+    position: absolute;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
+    top: 50%; /* Vertikale Zentrierung */
+    transform: translateY(-50%);
+    z-index: 10;
+}
+#prev {
+    left: 20rem;
+}
+
+#next {
+    right: 20rem;
+}
