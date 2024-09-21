@@ -1,48 +1,53 @@
 #uni-projects-page{
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-
-.slider{
-    position: relative;
+    justify-content: center;
+    min-height: 100vh;
     width: 100%;
-    height: 30rem;
+    flex-direction: column;
     overflow: hidden;
-/*
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    */
+    padding-inline: 2rem;
+}
+.slider-container{
+    width: 100%;
+    position: relative;
 }
 
 .items{
-    position: absolute;
-    width: 30rem;
-    height: 30rem;
-    text-align: center;
+    width: 500px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    border-radius: 10px;
     padding: 1rem;
-    transition: 0.5s;
-    left: calc(50% - 15rem);
+    border-radius: 12px;
+    text-align: center;
+    margin-inline: 1rem;
+    object-fit: cover;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border: 2px solid transparent;
+    transition: 0.2s ease;
 }
 
-#next, #prev{
-    position: absolute;
+.items:hover{
+    border-color: black;
+}
+
+.swiper-button-prev, .swiper-button-next {
     color: black;
-    background-color: transparent;
-    border: none;
-    font-size: 4rem;
-    top: 50%; /* Vertikale Zentrierung */
-    transform: translateY(-50%);
-    z-index: 10;
-}
-#prev {
-    left: 20rem;
+    font-size: 2rem;
+    z-index: 10; /* Ensure they appear above the slides */
+    width: auto; /* Ensure the buttons are not too wide */
+    height: auto; /* Adjust for better display */
 }
 
-#next {
-    right: 20rem;
+#productDimensionsBild{
+    rotate: 90deg;
+}
+
+.uni-project-images {
+    border-radius: 10px;
+    background-color: lightgray;
 }
