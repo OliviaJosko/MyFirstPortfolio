@@ -39,5 +39,15 @@ document.addEventListener('DOMContentLoaded', function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+
+        breakpoints:{
+            0: {
+                slidesPerView: 1
+            },
+            1000: {
+                slidesPerView: 3
+            },
+        }
     });
 });
+

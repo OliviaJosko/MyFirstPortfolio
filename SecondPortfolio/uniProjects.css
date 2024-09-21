@@ -51,4 +51,11 @@
 .uni-project-images {
     border-radius: 10px;
     background-color: lightgray;
+    max-width: 100%;
+    max-height: 70%;
+    object-fit: contain; /* Behaltet das Seitenverhältnis bei, ohne das Bild zu beschneiden */
+    display: block;
+    margin: 0 auto;
 }
+
+/* TO DO: media queries and design */
