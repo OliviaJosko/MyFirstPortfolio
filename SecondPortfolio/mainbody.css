@@ -60,21 +60,24 @@ img{
 }
 
 #home-page{
-    background-color: lightpink;
+    background: linear-gradient(to top, mediumpurple, lightpink );
     overflow: hidden;
 }
 
 #about-me-page{
-    background-color: lightblue;
+    background: linear-gradient(to top, lightblue, mediumpurple );
 }
 #uni-projects-page{
+    background: linear-gradient(to top, lightgoldenrodyellow, lightblue );
 
 }
 
 #interests-page{
-    background-color: lightgreen;
+    background: linear-gradient(to top, darkseagreen, lightgoldenrodyellow );
 }
 
 #contact-page{
     height: 50vh;
+    background: linear-gradient(to top, lightgray, darkseagreen );
+
 }
