@@ -19,15 +19,6 @@ section{
     text-align: center;
     padding-top: 5rem;
 }
-h1{
-    display: inline-block;
-    color: transparent;
-    background: linear-gradient(to right, purple, blue);
-    background-clip: text;
-    -webkit-background-clip: text; /* Für Safari */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    /*-webkit-text-stroke: 0.01px white; /* Weiße Umrandung */
-}
 
 #headline{
     font-size: 3rem;
@@ -35,16 +26,19 @@ h1{
     font-family: "Arial Black";
 }
 #home-text{
-    padding-top: 8rem;
-    /*max-width: 400px; /* Maximale Breite des div */
-    width: 100%; /* Passt sich der Breite des Containers an, bis die max-width erreicht ist */
+    padding-top: 7rem;
+    width: 100%;
     margin: 0 auto;
     height: 400px;
 }
 
-img{
+.home-img-wolle-1,
+.home-img-book-2,
+.home-img-piano-3,
+.home-img-paint-4{
     width: 150px;
     height: auto;
+    position: absolute;
 }
 
 .home-images{
@@ -53,9 +47,6 @@ img{
 
 .home-images [class*=blob] {
     background-color: white;
-    position: absolute;
-}
-.home-images [class*=home-img] {
     position: absolute;
 }
 
@@ -67,9 +58,9 @@ img{
 #about-me-page{
     background: linear-gradient(to top, lightblue, mediumpurple );
 }
+
 #uni-projects-page{
     background: linear-gradient(to top, lightgoldenrodyellow, lightblue );
-
 }
 
 #interests-page{
@@ -79,5 +70,4 @@ img{
 #contact-page{
     height: 50vh;
     background: linear-gradient(to top, lightgray, darkseagreen );
-
 }

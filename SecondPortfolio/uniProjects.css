@@ -21,7 +21,6 @@
     margin: 0 auto;
 }
 
-
 .items{
     display: block;
     justify-content: center;
@@ -59,3 +58,28 @@
 }
 
 /* TO DO: media queries and design */
+
+#uni-projects-headline{
+    font-size: 3rem;
+    font-family: "Arial Black";
+    color: white;
+}
+
+.items-text h1 {
+    font-size: 2rem;
+    font-family: "Arial Black";
+    display: inline-block;
+    color: black;
+    background-color: lightblue;
+    border-radius: 8px;
+    border: 2px solid red; /* Temporärer Rahmen zur Diagnose */
+    z-index: 2;
+    padding: 10px 20px;
+}
+
+@media screen and (min-width: 1500px){
+    .slider-container{
+        max-width: 1500px;
+    }
+
+}
