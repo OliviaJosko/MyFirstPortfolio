@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
             0: {
                 slidesPerView: 1
             },
-            1000: {
+            1500: {
                 slidesPerView: 3
             },
         }
