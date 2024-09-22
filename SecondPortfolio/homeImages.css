@@ -90,18 +90,19 @@
 
 /*       Breaking Points       */
 /* small devices */
-@media screen and (max-width: 319px){
-   #home-page{
-       grid-template-rows: max-content 270px;
-   }
+@media screen and (max-width: 319px) {
+    #home-page {
+        grid-template-rows: max-content 270px;
+    }
 
-    .home-images [class*=blob]{
+    .home-images [class*=blob] {
         scale: .8;
     }
-    #headline{
+
+    #headline {
         font-size: 2rem;
     }
-
+}
 @media screen and (max-width: 400px) and (max-height: 650px){
     #home-page{
         height: initial;
@@ -113,7 +114,7 @@
         height: initial;
     }
 }
-}
+
 
 /* medium devices */
 @media screen and (min-width: 500px) {
