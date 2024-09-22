@@ -185,7 +185,6 @@
     .blob-4{
         left: 6rem;
     }
-
 }
 
 @media screen and (min-width: 1500px){
@@ -200,8 +199,6 @@
         font-size: 2rem;
         width: 800px;
     }
-
-
 }
 
 /* for devices with small height */
