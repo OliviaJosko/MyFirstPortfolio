@@ -46,14 +46,6 @@
     z-index: 10; /* Ensure they appear above the slides */
 }
 
-#productDimensionsBild{
-    rotate: 90deg;
-    clip-path: inset(30px 40px 40px 40px); /* Zuschneiden des Bildes */
-    position: relative;
-    max-width: 200px;
-    display: block;
-    margin: 0 auto;
-}
 
 #productDimensionsBild,
 #generativeGestaltungBild,
